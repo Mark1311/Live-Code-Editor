@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <title>Code Editor</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <!-- Style file add -->
+     <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+     <!-- Main Cantainer Start -->
+
+     <div class="Container">
+          <!-- HTML Code Window Start -->
+          <div class="wrapper">
+               <div class="title">
+                    <div class="m-title">
+                         <h2>HTML Window</h2>
+                    </div>
+               </div>
+               <!-- Typing Area Start of Html Code -->
+               <textarea name="html" id="html" cols="auto" rows="auto" autofocus autocorrect="off"
+                    spellcheck="false"></textarea>
+               <!-- Typing Area End of Html Code -->
+               <button class="clear html">clear</button>
+               <!-- Code Copy Button -->
+               <button class="copy-btn copy-html">
+                    <span>Copy HTML</span>
+
+               </button>
+          </div>
+
+          <!-- HTML Code Window End -->
+
+
+
+          <!-- CSS Code Window Start -->
+
+          <div class="wrapper">
+               <div class="title">
+                    <div class="m-title">
+
+                         <h2>CSS Window</h2>
+                    </div>
+
+               </div>
+               <!-- Typing Area Start of Css Code -->
+               <textarea name="css" id="css" cols="auto" rows="auto" autocomplete="off" autocorrect="off"
+                    autocapitalize="off" spellcheck="false"></textarea>
+               <!-- Typing Area End of Css Code -->
+               <button class="clear css">clear</button>
+
+               <!-- Code Copy Button -->
+               <button class="copy-btn copy-css">
+                    <span>Copy CSS</span>
+
+               </button>
+          </div>
+
+          <!-- CSS Code Window End -->
+
+
+          <!-- Javascript Code Window Start -->
+
+          <div class="wrapper">
+               <div class="title">
+                    <div class="m-title">
+
+                         <h2>JS Window</h2>
+                    </div>
+
+               </div>
+
+               <!-- Typing Area Start of Javascript Code -->
+               <textarea name="js" id="js" cols="auto" rows="auto" autocomplete="off" autocorrect="off"
+                    autocapitalize="off" spellcheck="false"></textarea>
+
+               <!-- Typing Area End of Javascript Code -->
+               <button class="clear js">clear</button>
+
+               <!-- Code Copy Button -->
+               <button class="copy-btn copy-js">
+                    <span>Copy JS</span>
+
+               </button>
+
+          </div>
+          <!-- Javascript Code Window End -->
+
+     </div>
+
+     <!-- Main Cantainer End -->
+
+     <!-- Output wondow Strat -->
+
+     <div class="out-title">
+          <h2>OutPut Window</h2>
+     </div>
+
+
+     <div class="outputContainer">
+
+          <iframe id="output" title="output" frameborder="0" width="100%" height="100%"></iframe>
+     </div>
+
+     <!-- Output wondow End -->
+
+
+     <!-- index.js file add -->
+
+     <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
