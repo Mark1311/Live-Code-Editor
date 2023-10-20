@@ -19,3 +19,11 @@ Others Info:- Total 3 Files.
 2). Style.CSS
 
 3). Index.JS
+
+
+Contact Info:-
+
+Nmae - Bittu Kumar
+Location- Ghaziabad, India
+Mob. - 8650001746
+E-mail - bittuvaranval@gmail.com
